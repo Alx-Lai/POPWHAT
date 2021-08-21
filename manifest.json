@@ -1,0 +1,23 @@
+{
+    "manifest_version" : 2,
+	"name" : "POPWHAT",
+	"description" : "Modify your own popcat style",
+	"version" : "1.0",
+	"browser_action" : {
+		"default_title" : "POPWHAT",
+		"default_icon" : "icon.png"	
+	},
+	"content_scripts" : [
+		{
+			"matches" : ["https://popcat.click/*"],
+			"js" : ["content.js"],
+			"css" : []
+		}
+	],
+	"web_accessible_resources": [
+		"images/open.png",
+		"images/close.png"
+	],
+	"permissions" : [
+    ]
+}
