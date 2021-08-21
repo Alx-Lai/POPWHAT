@@ -6,9 +6,9 @@ close.png for the default style
 
 open.png for the click style
 
-*bg to be continued
+bg..png for background
 
-
+*看似沒辦法加次數since css 不一樣
 
 Install
 

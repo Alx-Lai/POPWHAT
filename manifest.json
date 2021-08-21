@@ -16,7 +16,8 @@
 	],
 	"web_accessible_resources": [
 		"images/open.png",
-		"images/close.png"
+		"images/close.png",
+		"images/bg.png"
 	],
 	"permissions" : [
     ]
